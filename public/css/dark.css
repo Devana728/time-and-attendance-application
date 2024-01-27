@@ -1,0 +1,50 @@
+:root {
+  --light-gray:#333;
+  --lighter-gray:#191818;
+  --dark-gray:#161515;
+  --semi-white:#ccc;
+}
+html, body {
+  background-color:#212020;
+  color:var(--semi-white);
+}
+#bg { color:var(--lighter-gray) }
+.footer { background-color:var(--dark-gray) }
+.menu a { color:#eee }
+.menu-admin a { color:#81ccd3 }
+.list-group-item {
+  background-color:var(--dark-gray);
+  border-color:var(--light-gray);
+}
+.calendar {
+  border:1px solid var(--light-gray);
+  background-color:var(--dark-gray);
+}
+.calendar.weekend { background-color:#1a1a1a }
+.calendar.holiday { background-color:#b56363 }
+.calendar.today {
+  background-color:var(--semi-white) !important;
+  color:var(--light-gray);
+}
+.calendar.today.holiday { background-color:#dd9494 !important }
+.calendar.off {
+  background-color:#222;
+  color:var(--light-gray);
+}
+.calendar.off.holiday {
+  background-color:#ab4171;
+  color:var(--light-gray);
+}
+.modal-title, .modal-body, .panel-body, .popover { color:var(--light-gray) }
+.note {
+  background-color:#0c7f7f;
+  box-shadow:inset 0 0 2px 1px #0ff, 0 0 20px 5px #0ff;
+}
+.modal-day {
+  background-color:var(--light-gray);
+  color:var(--semi-white);
+}
+.table { color:#f0f0f0 }
+.table tr:hover td { color:#fff }
+.accordion .card-body .table { color:#333 }
+.accordion .card-body .table tr:hover td { color:#000 }
